@@ -20,7 +20,7 @@ var paths = {
   styles: ['src/styles/**/*.scss'],
   scripts: ['src/scripts/**/*.js'],
   images: ['src/images/**/*'],
-  docs: ['src/**/*.html', 'src/**/*.md', 'templates/*.html', 'templates/*.jade']
+  docs: ['src/**/*.html', 'src/**/*.md', 'src/**/*.hbs', 'templates/*.html', 'templates/*.jade', 'templates/*.hbs']
 };
 
 // Standard error handler

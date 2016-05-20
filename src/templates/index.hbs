@@ -21,9 +21,15 @@
   </head>
 
   <body>
+    <header>
+      {{> nav }}
+    </header>
     <section>
-      {{ contents | safe }}
+      {{{ contents }}}
     </section>
+    <footer>
+      {{> footer }}
+    </footer>
   </body>
   <script src="/scripts/app.js"></script>
 </html>

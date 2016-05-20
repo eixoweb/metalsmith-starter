@@ -1,5 +1,6 @@
 ---
-template: index.html
+layout: index.hbs
+description: blalbalbalablalba
 ---
 
 # Concrete Metalsmith Boilerplate

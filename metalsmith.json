@@ -12,9 +12,10 @@
     "metalsmith-permalinks": {
       "pattern": ":title"
     },
-    "metalsmith-templates": {
-      "engine": "swig",
-      "directory": "./src/templates"
+    "metalsmith-layouts": {
+      "engine": "handlebars",
+      "directory": "./src/templates",
+      "partials": "./src/templates/partials"
     }
   }
 }
